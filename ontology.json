@@ -1,0 +1,462 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/ClassificationScheme"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/hasType"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/isAbout"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/DomainObject"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/isBasedOn"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/InformationEntity"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/hasType"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/LevelScheme"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://bim.aalto.fi/DiCtion/Ontology/Activity"
+    }, {
+      "@id" : "http://bim.aalto.fi/DiCtion/Ontology/Group"
+    }, {
+      "@id" : "http://bim.aalto.fi/DiCtion/Ontology/InformationEntity"
+    }, {
+      "@id" : "http://bim.aalto.fi/DiCtion/Ontology/PhysicalEntity"
+    }, {
+      "@id" : "http://bim.aalto.fi/DiCtion/Ontology/Resource"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://bim.aalto.fi/DiCtion/Ontology/Classification"
+    }, {
+      "@id" : "http://bim.aalto.fi/DiCtion/Ontology/DecompositionType"
+    }, {
+      "@id" : "http://bim.aalto.fi/DiCtion/Ontology/DomainObject"
+    }, {
+      "@id" : "http://bim.aalto.fi/DiCtion/Ontology/Identifier"
+    }, {
+      "@id" : "http://bim.aalto.fi/DiCtion/Ontology/LevelAssignment"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/hasPart"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/DecompositionType"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://bim.aalto.fi/DiCtion/Ontology/ClassificationScheme"
+    }, {
+      "@id" : "http://bim.aalto.fi/DiCtion/Ontology/IdentifierType"
+    }, {
+      "@id" : "http://bim.aalto.fi/DiCtion/Ontology/InformationProducer"
+    }, {
+      "@id" : "http://bim.aalto.fi/DiCtion/Ontology/LevelScheme"
+    }, {
+      "@id" : "http://www.w3.org/2006/time#Instant"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/Classification"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/classifiedAs"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/LevelAssignment"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/hasAssignedLevel"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/Identifier"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/identifiedBy"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/hasType"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/IdentifierType"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/identifies"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/DomainObject"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/hasCreationTime"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2006/time#Instant"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/hasOrigin"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/InformationProducer"
+  } ]
+}, {
+  "@id" : "http://ainf.aau.at/ontodebug#axiom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://ainf.aau.at/ontodebug#testCase"
+  } ]
+}, {
+  "@id" : "http://ainf.aau.at/ontodebug#testCase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://ainf.aau.at/ontodebug#type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://ainf.aau.at/ontodebug#testCase"
+  } ]
+}, {
+  "@id" : "http://bim.aalto.fi/DiCtion/Ontology/Activity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/DomainObject"
+  } ]
+}, {
+  "@id" : "http://bim.aalto.fi/DiCtion/Ontology/Actor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/Resource"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/Equipment"
+  } ]
+}, {
+  "@id" : "http://bim.aalto.fi/DiCtion/Ontology/Classification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://bim.aalto.fi/DiCtion/Ontology/ClassificationScheme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://bim.aalto.fi/DiCtion/Ontology/ConstructionObject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This Construction Objects ontology is known as one module of SSP ontology of DiCtion project. The purpose of this module is to support data sharing of the object information that related to the construction project. This module describes the concepts (or ‘classes’) of basic objects in the construction process and their properties and hierarchy. The core concept  is the ‘Domain Object’, which refers the top abstract concept of all the objects (physical entities, information entities, resources, activities and groups). One domain object has its own identifier (e.g. URI), and it may has a classification that classified by some classification scheme (e.g.  OmniClass). It also may have its level assignment to illustrate it belongs to which level of detail. Meanwhile, it may have its own breakdown structure, known as decomposition type. The construction objects module can be used for the use cases that collecting the basic information of the elements."
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "https://w3id.org/bot/0.3.0"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/ConstructionObject/0.8"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "0.8"
+  } ]
+}, {
+  "@id" : "http://bim.aalto.fi/DiCtion/Ontology/DecompositionType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://bim.aalto.fi/DiCtion/Ontology/DomainObject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid2"
+  }, {
+    "@id" : "_:genid3"
+  }, {
+    "@id" : "_:genid4"
+  }, {
+    "@id" : "_:genid5"
+  } ]
+}, {
+  "@id" : "http://bim.aalto.fi/DiCtion/Ontology/Equipment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/Resource"
+  } ]
+}, {
+  "@id" : "http://bim.aalto.fi/DiCtion/Ontology/Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/InformationEntity"
+  } ]
+}, {
+  "@id" : "http://bim.aalto.fi/DiCtion/Ontology/Group",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/DomainObject"
+  } ]
+}, {
+  "@id" : "http://bim.aalto.fi/DiCtion/Ontology/Identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid6"
+  }, {
+    "@id" : "_:genid7"
+  } ]
+}, {
+  "@id" : "http://bim.aalto.fi/DiCtion/Ontology/IdentifierType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://bim.aalto.fi/DiCtion/Ontology/InformationEntity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/DomainObject"
+  }, {
+    "@id" : "_:genid8"
+  }, {
+    "@id" : "_:genid9"
+  }, {
+    "@id" : "_:genid10"
+  }, {
+    "@id" : "_:genid11"
+  } ]
+}, {
+  "@id" : "http://bim.aalto.fi/DiCtion/Ontology/InformationProducer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://bim.aalto.fi/DiCtion/Ontology/LevelAssignment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid12"
+  } ]
+}, {
+  "@id" : "http://bim.aalto.fi/DiCtion/Ontology/LevelScheme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://bim.aalto.fi/DiCtion/Ontology/Location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/PhysicalEntity"
+  } ]
+}, {
+  "@id" : "http://bim.aalto.fi/DiCtion/Ontology/Material",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/PhysicalEntity"
+  } ]
+}, {
+  "@id" : "http://bim.aalto.fi/DiCtion/Ontology/Organization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/Actor"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/Person"
+  } ]
+}, {
+  "@id" : "http://bim.aalto.fi/DiCtion/Ontology/Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/Actor"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ]
+}, {
+  "@id" : "http://bim.aalto.fi/DiCtion/Ontology/PhysicalEntity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/DomainObject"
+  } ]
+}, {
+  "@id" : "http://bim.aalto.fi/DiCtion/Ontology/Resource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/DomainObject"
+  } ]
+}, {
+  "@id" : "http://bim.aalto.fi/DiCtion/Ontology/classifiedAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/DomainObject"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/Classification"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/classifies"
+  } ]
+}, {
+  "@id" : "http://bim.aalto.fi/DiCtion/Ontology/classifies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/Classification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/DomainObject"
+  } ]
+}, {
+  "@id" : "http://bim.aalto.fi/DiCtion/Ontology/hasAssignedLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/DomainObject"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/LevelAssignment"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/hasAssignedObject"
+  } ]
+}, {
+  "@id" : "http://bim.aalto.fi/DiCtion/Ontology/hasAssignedObject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/LevelAssignment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/DomainObject"
+  } ]
+}, {
+  "@id" : "http://bim.aalto.fi/DiCtion/Ontology/hasCreationTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/InformationEntity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2006/time#Instant"
+  } ]
+}, {
+  "@id" : "http://bim.aalto.fi/DiCtion/Ontology/hasOrigin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/InformationEntity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/InformationProducer"
+  } ]
+}, {
+  "@id" : "http://bim.aalto.fi/DiCtion/Ontology/hasPart",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/DomainObject"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/DecompositionType"
+  } ]
+}, {
+  "@id" : "http://bim.aalto.fi/DiCtion/Ontology/hasType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://bim.aalto.fi/DiCtion/Ontology/identifiedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/DomainObject"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/Identifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/identifies"
+  } ]
+}, {
+  "@id" : "http://bim.aalto.fi/DiCtion/Ontology/identifies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/Identifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/DomainObject"
+  } ]
+}, {
+  "@id" : "http://bim.aalto.fi/DiCtion/Ontology/isAbout",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/InformationEntity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/DomainObject"
+  } ]
+}, {
+  "@id" : "http://bim.aalto.fi/DiCtion/Ontology/isBasedOn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#ReflexiveProperty" ]
+}, {
+  "@id" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4#IfcBuildingElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/PhysicalEntity"
+  } ]
+}, {
+  "@id" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4#IfcSpatialElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/PhysicalEntity"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2006/time#Instant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/bot#Element",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/PhysicalEntity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/bot#Zone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim.aalto.fi/DiCtion/Ontology/Location"
+  } ]
+} ]
